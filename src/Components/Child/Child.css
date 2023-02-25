@@ -1,0 +1,142 @@
+:root{
+    --backgroundColor: #101010;
+    --backgroundColor2: #191919;
+    --mainColor: #EC1C49;
+    --whiteColor: #D9F8E4;
+    --whiteColor2: #CEE5ED;
+}
+*{
+    text-decoration: none;
+    color: var(--whiteColor);
+}
+.Home{
+    background-color: var(--backgroundColor);
+    height: 100vh;
+    width: 100%;
+    color: var(--whiteColor);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.HomeChild{
+    width: 300px;
+    height: 70vh;
+    background-color: var(--backgroundColor2);
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 60px 20px;
+}
+
+.LogIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SubChild{
+    margin-bottom: 15px;
+}
+
+.ChildTitle{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+
+.LogInInput{
+    width: 95%;
+    height: 40px;
+    border: 2px solid var(--mainColor);
+    border-radius: 15px;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+.Remember{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.CheckBox{
+    background-color: var(--backgroundColor2);
+    border: 1px solid var(--mainColor);
+    margin-right: 10px;
+}
+
+.RememberText{
+    color: var(--mainColor);
+}
+
+label > span{
+    color: var(--mainColor);
+}
+
+.submit{
+    background-color: var(--mainColor);
+    border: none;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.End{
+    display: flex;
+    flex-direction: column;
+}
+
+.ChildEnd{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.Icons{
+    padding: 0;
+}
+
+.LastRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.SignUpLink{
+    color: var(--mainColor);
+}
+
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.UserName{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.UserNameChild{
+    width: 45%;
+    height: 40px;
+    border: 2px solid var(--mainColor);
+    border-radius: 15px;
+    background-color: transparent;
+    padding-left: 10px;
+}
