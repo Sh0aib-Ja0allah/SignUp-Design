@@ -128,7 +128,6 @@ label > span{
 
 .UserName{
     margin-bottom: 15px;
-    margin-right: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -136,6 +135,7 @@ label > span{
 
 .UserNameChild{
     width: 45%;
+    margin-right: 5px;
     height: 40px;
     border: 2px solid var(--mainColor);
     border-radius: 15px;
