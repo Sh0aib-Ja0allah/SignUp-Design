@@ -40,7 +40,14 @@
 .icon{
     margin: 7px;
 }
-
 .FooterRights,.FooterMade{
     color: var(--mainColor);
+    font-weight: 600;
+    font-size: 20px;
+}
+.FooterChild > span{
+    color: #f9004d;
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 23px;
 }
